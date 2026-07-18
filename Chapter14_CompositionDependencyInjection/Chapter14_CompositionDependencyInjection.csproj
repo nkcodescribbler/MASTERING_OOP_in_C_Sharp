@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>OOPBook.Chapter14_CompositionDependencyInjection</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Real DI container (console-appropriate equivalent of the book's
+         WebApplication.CreateBuilder().Services — full ASP.NET Core hosting
+         is not needed to demonstrate service registration and lifetimes). -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
